@@ -5,7 +5,7 @@ const allFoods = [
         type: 'lunch',
         shortDescription: 'How we dream about our future',
         price: 23.99,
-        photoUrl: 'lunch1.png'
+        photoUrl: 'https://iili.io/2CpHKu.png'
     },
     {
         name: "Fried Chicken Bento",
@@ -13,7 +13,7 @@ const allFoods = [
         type: 'lunch',
         shortDescription: 'How we dream about our future',
         price: 9.99,
-        photoUrl: 'lunch2.png'
+        photoUrl: 'https://iili.io/2Cp3Hx.png'
     },
     {
         name: "Tarragon-Rubbed-Salmon",
@@ -21,7 +21,7 @@ const allFoods = [
         type: 'lunch',
         shortDescription: 'How we dream about our future',
         price: 6.99,
-        photoUrl: 'lunch3.png'
+        photoUrl: 'https://iili.io/2CpJcb.png'
     },
     {
         name: "Indian Lunch",
@@ -29,7 +29,7 @@ const allFoods = [
         type: 'lunch',
         shortDescription: 'How we dream about our future',
         price: 8.99,
-        photoUrl: 'lunch4.png'
+        photoUrl: 'https://iili.io/2CpdSj.png'
     },
     {
         name: "Beef Steak",
@@ -37,7 +37,7 @@ const allFoods = [
         type: 'lunch',
         shortDescription: 'How we dream about our future',
         price: 15.99,
-        photoUrl: 'lunch5.png'
+        photoUrl: 'https://iili.io/2CpfDB.png'
     },
     {
         name: "Honey Soy Glazed Salmon with Peppers",
@@ -45,7 +45,7 @@ const allFoods = [
         type: 'lunch',
         shortDescription: 'How we dream about our future',
         price: 7.99,
-        photoUrl: 'lunch6.png'
+        photoUrl: 'https://iili.io/2CpKNV.png'
     },
 
     // Lunch Items end
@@ -56,7 +56,7 @@ const allFoods = [
         type: 'breakfast',
         shortDescription: 'How we dream about our future',
         price: 6.99,
-        photoUrl: 'breakfast1.png'
+        photoUrl: 'https://iili.io/2CpCV1.png'
     },
     {
         name: "Breakfast sandwich",
@@ -64,7 +64,7 @@ const allFoods = [
         type: 'breakfast',
         shortDescription: 'How we dream about our future',
         price: 9.99,
-        photoUrl: 'breakfast2.png'
+        photoUrl: 'https://iili.io/2CpBoP.png'
     },
     {
         name: "Baked Chiken",
@@ -72,7 +72,7 @@ const allFoods = [
         type: 'breakfast',
         shortDescription: 'How we dream about our future',
         price: 10.99,
-        photoUrl: 'breakfast3.png'
+        photoUrl: 'https://iili.io/2CpxKg.png'
     },
     {
         name: "Eggs Benedict",
@@ -80,7 +80,7 @@ const allFoods = [
         type: 'breakfast',
         shortDescription: 'How we dream about our future',
         price: 8.99,
-        photoUrl: 'breakfast4.png'
+        photoUrl: 'https://iili.io/2CpuHv.png'
     },
     {
         name: "Toast Croissant Fried egg",
@@ -88,7 +88,7 @@ const allFoods = [
         type: 'breakfast',
         shortDescription: 'How we dream about our future',
         price: 19.99,
-        photoUrl: 'breakfast5.png'
+        photoUrl: 'https://iili.io/2CpARR.png'
     },
     {
         name: "Full Breakfast Fried Egg Toast Brunch",
@@ -96,7 +96,7 @@ const allFoods = [
         type: 'breakfast',
         shortDescription: 'How we dream about our future',
         price: 3.99,
-        photoUrl: 'breakfast6.png'
+        photoUrl: 'https://iili.io/2Cpzla.png'
     },
 
     // Breakfast Items End
@@ -107,7 +107,7 @@ const allFoods = [
         type: 'dinner',
         shortDescription: 'How we dream about our future',
         price: 9.99,
-        photoUrl: 'dinner1.png'
+        photoUrl: 'https://iili.io/2CpIUJ.png'
     },
     {
         name: "Lemony Salmon Piccata",
@@ -115,7 +115,7 @@ const allFoods = [
         type: 'dinner',
         shortDescription: 'How we dream about our future',
         price: 10.99,
-        photoUrl: 'dinner2.png'
+        photoUrl: 'https://iili.io/2CpRNp.png'
     },
     {
         name: "Pork Tnderioin with Quinoa Pilaf",
@@ -123,7 +123,7 @@ const allFoods = [
         type: 'dinner',
         shortDescription: 'How we dream about our future',
         price: 12.99,
-        photoUrl: 'dinner3.png'
+        photoUrl: 'https://iili.io/2Cp5DN.png'
     },
     {
         name: "French fries with cheese",
@@ -131,7 +131,7 @@ const allFoods = [
         type: 'dinner',
         shortDescription: 'How we dream about our future',
         price: 8.99,
-        photoUrl: 'dinner4.png'
+        photoUrl: 'https://iili.io/2CLnYN.png'
     },
     {
         name: "Garlic Butter Baked Salmon",
@@ -139,7 +139,7 @@ const allFoods = [
         type: 'dinner',
         shortDescription: 'How we dream about our future',
         price: 6.99,
-        photoUrl: 'dinner5.png'
+        photoUrl: 'https://iili.io/2CLovI.png'
     },
     {
         name: "Baked Chiken",
@@ -147,7 +147,7 @@ const allFoods = [
         type: 'dinner',
         shortDescription: 'How we dream about our future',
         price: 9.99,
-        photoUrl: 'dinner6.png'
+        photoUrl: 'https://iili.io/2CLxpt.png'
     }
 ]
 export default allFoods;

@@ -1,4 +1,31 @@
-.card-item{
-    display: flex;
-    flex-flow: row wrap
+.food-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+}
+.food-category button {
+    border: none;
+    outline: none;
+    background: white;
+    margin: 0 20px;
+}
+
+.food-category button:focus{
+    outline: none;
+}
+
+.food-category{
+    margin: 4rem auto;
+}
+.food-gallery>Button{
+    margin: 4rem 0;
+}
+.items-count{
+    background: red;
+    padding: 3px;
+}
+.food-category .border-bottom{
+    outline: none;
+    color: #e93434;
+    border-bottom: 2px solid #e93434 !important;
 }

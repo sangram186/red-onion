@@ -2,13 +2,13 @@
     background-image: url('../../images/bannerbackground.png');
     background-size: cover;
     width: 100%;
-    height: 560px;
+    height: 680px;
     position: relative;
     display: flex;
     justify-content: center;
 }
 .banner-item{
-    margin-top: 9%;
+    margin-top: 11%;
 }
 .banner-input{
     outline: none;

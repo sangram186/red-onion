@@ -1,15 +1,24 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './FoodItem.css'
 
 const FoodItem = (props) => {
-    const {photoUrl, name, shortDescription, price} = props.selectedFood;
+    const {photoUrl, name, shortDescription, price, id} = props.selectedItem;
+    
     return (
-            <div className="food-item">
-                <img src={require(`../../../images/foodItems/${photoUrl}`)} alt=""/>
-                <h4>{name}</h4>
-                <p>{shortDescription}</p>
-                <h3>{price}</h3>
-            </div>
+        <Link className='food-item-style' to={`/foodItem/${id}`}>
+            <Card>
+            <Card.Img variant="top" src={photoUrl} />
+            <Card.Body>
+                <Card.Title>{name}</Card.Title>
+                <Card.Text>{shortDescription}</Card.Text>
+                <Card.Title>${price}</Card.Title>
+            </Card.Body>
+            </Card>
+        </Link>
+        
+        
     );
 };
 

@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import Banner from '../Banner/Banner';
 import FoodGalary from '../FoodGalary/FoodGalary';
-import Header from '../Header/Header';
+
+
 
 const Home = () => {
     return (
-        <div>
-            <Header></Header>
+        <div style={{ textAlign: 'center' }}>
             <Banner></Banner>
             <FoodGalary></FoodGalary>
         </div>

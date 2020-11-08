@@ -1,3 +1,21 @@
-.single-card{
-    flex: 1 0 calc(33.333% - 20px);
+.card{
+    padding: 0;
+    margin: 30px;
+    border: none !important;
+    border-radius: .5rem;
+}
+.card img{
+    padding: 1.7rem;
+}
+.card-body{
+    padding: 1rem;
+}
+.food-item-style{
+    color: black;
+}
+.food-item-style:hover{
+    color: black;
+    text-decoration: none;
+    box-shadow: -1px 5px 12px 0px lightgrey;
+    border-radius: 10px;
 }

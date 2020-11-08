@@ -1,0 +1,56 @@
+.food-item-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+}
+.food-content{
+    text-align: start;
+}
+.food-content > button {
+    border: none;
+    background: rgb(233, 52, 52);
+    color: white;
+    padding: .2rem .9rem;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+}
+.food-content > button:hover{
+    background: rgb(230, 80, 80);
+}
+.food-content > button:focus{
+    outline: none;
+}
+.food-content , .food-image{
+    width: 50%;
+}
+.food-image img{
+    width: 100%;
+}
+.price-and-button{
+    display: flex;
+    align-items: center;
+}
+.button button{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 10px;
+}
+.button button:focus{
+    outline: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 18px;
+    font-size: 2rem;
+    line-height: 1.9rem;
+}
+.button p{
+    margin: 0;
+    padding: 0;
+}
